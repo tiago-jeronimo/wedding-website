@@ -6,7 +6,7 @@ class Home extends React.Component {
         return(
             <div>
                 <Navbar />
-                <h2 id="text_one">Seja bem vindo ao nosso "felizes para sempre"!</h2>
+                <h2 id="title">Seja bem vindo ao nosso "felizes para sempre"!</h2>
             </div>
         )
     }

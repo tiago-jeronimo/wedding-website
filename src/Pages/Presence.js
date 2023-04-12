@@ -6,7 +6,7 @@ class Presence extends React.Component {
         return(
             <div>
                 <Navbar />
-                <h1>Confirme sua presença</h1>
+                <h2 id="title">Confirme sua presença</h2>
             </div>
         )
     }
