@@ -1,25 +1,25 @@
 import React from "react";
 import './Gifts.css'
 import Navbar from "../Components/NavBar";
-import MinhaCard from "../Components/MinhaCard.js";
+import Cards from "../Components/Cards.js";
 
 class Gifts extends React.Component {
     render() {
         return(
             <div >
                 <Navbar />
-                <h2 id="title" >Presentes</h2>
+                <h1 id="title" >Presentes</h1>
                 <div id="container">
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
-                <MinhaCard />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
                 </div>
             </div>
         )
