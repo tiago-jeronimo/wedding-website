@@ -1,6 +1,5 @@
 import React from "react";
 import presentes from "../data/listPresentes";
-// import qr_code from "./qr_code.png";
 import "./Card.css";
 
 class Cards extends React.Component {
@@ -15,7 +14,7 @@ class Cards extends React.Component {
                 <p className="texto__front card02">QUERO PRESENTEAR COM </p>
                 <div className="div__product">
                   <h2 className="texto__front">{presentes[0].product}</h2>
-                  <p className="texto__front">R${presentes[0].price},00</p>
+                  <p className="texto__front">R${presentes[0].price}</p>
                 </div>
                 <div className="div__click">
                   <p className="texto__front texto__click">
@@ -31,7 +30,7 @@ class Cards extends React.Component {
                 src={presentes[0].pix}
               />
               <h1> {presentes[0].product}</h1>
-              <p>R${presentes[0].price},00</p>
+              <p>R${presentes[0].price}</p>
             </div>
           </div>
         </div>
