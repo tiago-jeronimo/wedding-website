@@ -7,11 +7,11 @@
 }
 
 #imagem-card{
-  margin-top: 5px;
+    margin-top: 30px;
     border-radius: 10px;
-    border: 1px solid #000000;
-    max-width:200px;
-    max-height:200px;
+    /* border: 1px solid #000000; */
+    /* max-width:200px;
+    max-height:200px; */
     width: 200px;
     height: 200px;
 }
@@ -74,7 +74,7 @@
   .card02{
     font-size: 13px;
     padding: 05px;
-    margin-top: 40px;
+    margin-top: 5px;
   }
 
   .div__product{
