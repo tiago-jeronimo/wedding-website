@@ -1,20 +1,26 @@
 import React from "react";
-import presentes from "../data/listPresentes";
 import "./Card.css";
 
-class Cards extends React.Component {
+export default class Cards extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      functionality: 'okay',
+    };
+  };
   render() {
     return (
       <div id="card">
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img id="imagem-card" src={presentes[0].image} alt="Avatar" />
+              <img id="imagem-card" src={this.props.image} alt="Avatar" />
               <div className="texto__front card01">
                 <p className="texto__front card02">QUERO PRESENTEAR COM </p>
                 <div className="div__product">
-                  <h2 className="texto__front">{presentes[0].product}</h2>
-                  <p className="texto__front">R${presentes[0].price}</p>
+                  <h2 className="texto__front">{this.props.product}</h2>
+                  <p className="texto__front">R${this.props.price}</p>
                 </div>
                 <div className="div__click">
                   <p className="texto__front texto__click">
@@ -27,16 +33,14 @@ class Cards extends React.Component {
               <img
                 id="imagem__back"
                 alt="imagem de um produto"
-                src={presentes[0].pix}
+                src={this.props.pix}
               />
-              <h1> {presentes[0].product}</h1>
-              <p>R${presentes[0].price}</p>
+              <h1> {this.props.product}</h1>
+              <p>R${this.props.price}</p>
             </div>
           </div>
         </div>
       </div>
     );
   }
-}
-
-export default Cards;
+};
