@@ -1,15 +1,9 @@
-#title{
-    text-align: center;
-}
-
-#div__image{
-    border: 4px red solid;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-/* #image__div{
-    width: 100%;
-    height: 100%px;
+/* #title{
+  text-align: center;
 } */
+
+.primeiro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
