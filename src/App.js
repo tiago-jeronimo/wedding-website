@@ -10,9 +10,9 @@ class App extends React.Component {
     return(
       <Router>
           <Routes>
-              <Route path='/' element={ <Home />}/>
+              <Route path='/' element={ <Gifts />}/>
+              <Route path='/home' element={ <Home />}/>
               <Route path='/presence' element={ <Presence />}/>
-              <Route path='/gifts' element={ <Gifts />}/>
           </Routes>
       </Router>
     )
