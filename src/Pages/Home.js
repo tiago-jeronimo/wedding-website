@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Image from "../Components/Image";
 
+
 import Navbar from "../Components/NavBar";
 
 class Home extends React.Component {

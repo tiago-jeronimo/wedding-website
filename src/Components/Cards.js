@@ -1,4 +1,5 @@
 import React from "react";
+import presentes from "../data/listPresentes";
 import "./Card.css";
 
 export default class Cards extends React.Component {
@@ -14,11 +15,11 @@ export default class Cards extends React.Component {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img id="imagem-card" src={this.props.image} alt="Avatar" />
+              <img id="imagem-card" src={presentes[9].image} alt="Avatar" />
               <div className="texto__front card01">
                 <p className="texto__front card02">QUERO PRESENTEAR COM </p>
                 <div className="div__product">
-                  <h2 className="texto__front">{this.props.product}</h2>
+                  <h2 className="texto__front">{presentes[9].product}</h2>
                   <p className="texto__front">R${this.props.price}</p>
                 </div>
                 <div className="div__click">
@@ -37,7 +38,7 @@ export default class Cards extends React.Component {
                 Clique no nome do produto para prosseguir com o pagamento.
               </p>
               <h1>
-                <a href={this.props.UrlPix} style={{textDecoration: 'none', color: 'inherit'}} >{this.props.product}</a>
+                <a href={this.props.UrlPix} style={{textDecoration: 'none', color: 'inherit'}} >{presentes[9].product}</a>
               </h1>
               <p>R${this.props.price}</p>
             </div>

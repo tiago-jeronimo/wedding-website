@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 
 .card {
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
-    max-width: 700px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 25px;
-    position: relative;
-    margin-top: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 700px;
+  border-radius: 25px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background: #fff;
+}
+.img-avatar svg {
+  max-width: 100%;
 }
 .card h2 {
     margin: 0;
@@ -58,4 +61,22 @@ path {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/tiago%26debora.jpeg?alt=media&token=8c8eb0f0-fa3f-486d-b865-d98a73ec311a");
   background-position: bottom center;
   background-size: cover;
+  max-width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card {
+  margin: 0 auto;
+  padding: 2rem;
+} 
+
+@media (max-width: 767px) {
+  .card {
+    padding: 1rem;
+  }
 }

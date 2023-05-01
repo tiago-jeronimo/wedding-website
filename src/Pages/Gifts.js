@@ -1,5 +1,7 @@
 import React from "react";
 import './Gifts.css'
+import Image from "../Components/Image";
+import "../Components/Image.css"
 // import Navbar from "../Components/NavBar";
 import Cards from "../Components/Cards.js";
 import presentes from "../data/listPresentes";
@@ -10,7 +12,10 @@ class Gifts extends React.Component {
         return(
             <div >
                 {/* <Navbar /> */}
-                <h1 id="title" >Débora &  Tiago</h1>
+                <h1 id="title" >👰‍♀️ Débora &  Tiago 🤵</h1>
+            
+                <Image />
+
                 <div id="container">
                 {presentes.map((e) => ( 
                 <Cards 
