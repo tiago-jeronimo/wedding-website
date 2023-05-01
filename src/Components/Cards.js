@@ -2,13 +2,12 @@ import React from "react";
 import "./Card.css";
 
 export default class Cards extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
-      functionality: 'okay',
+      functionality: "okay",
     };
-  };
+  }
   render() {
     return (
       <div id="card">
@@ -35,7 +34,9 @@ export default class Cards extends React.Component {
                 alt="imagem de um produto"
                 src={this.props.pix}
               />
-              <h1> {this.props.product}</h1>
+              <h1>
+                <a href={this.props.UrlPix} style={{textDecoration: 'none', color: 'inherit'}} >{this.props.product}</a>
+              </h1>
               <p>R${this.props.price}</p>
             </div>
           </div>
@@ -43,4 +44,4 @@ export default class Cards extends React.Component {
       </div>
     );
   }
-};
+}

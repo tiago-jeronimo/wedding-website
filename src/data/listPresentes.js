@@ -5,6 +5,7 @@ const presentes = [
         'product':'Batedeira',
         'price':'120,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FBatedeira-120.png?alt=media&token=8ae56227-f85f-4d2a-99e8-ff09ad7d5438',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/D0YFu919qt',
     },
     {
         'id':'02',
@@ -12,6 +13,7 @@ const presentes = [
         'product':'Jogo de Cama',
         'price':'100,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FJogo-de-cama-100.png?alt=media&token=99fe66e6-5098-48be-b979-a5c496d25d7a',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/Hb8r98FNTn',
     },
     {
         'id':'03',
@@ -19,6 +21,7 @@ const presentes = [
         'product':'Faqueiro',
         'price':'150,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FFaqueiro-150.png?alt=media&token=ec031e9b-756e-4ba5-9155-09b3b6f367e3',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/ic9Da70Wfc',
     },
     {
         'id':'04',
@@ -26,6 +29,7 @@ const presentes = [
         'product':'Ferro de Passar',
         'price':'110,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FFerro-de-passar-110.png?alt=media&token=eb3066b8-153c-488b-b577-e19b430120ea',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/C2CrpEnJ1g',
     },
     {
         'id':'05',
@@ -33,6 +37,7 @@ const presentes = [
         'product':'Jogo de Jantar',
         'price':'200,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2Fjogo-de-jantar-200.png?alt=media&token=a05f0eff-f67e-4ed1-8826-326dd46c8756',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/zZzeovWbgB',
     },
     {
         'id':'06',
@@ -40,6 +45,7 @@ const presentes = [
         'product':'Jogo de Panela',
         'price':'150,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2Fjogo-de-panela-150.png?alt=media&token=b514df32-5a7e-47f6-9f04-23523d69a6cf',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/JVo096VBhf',
     },
     {
         'id':'07',
@@ -47,6 +53,7 @@ const presentes = [
         'product':'Liquidificador',
         'price':'140,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2Fliquidificador-140.png?alt=media&token=747fe699-f1c3-447f-b7b6-3b95c5eafc78',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/rhCM4ZZT2f',
     },
     {
         'id':'08',
@@ -54,6 +61,7 @@ const presentes = [
         'product':'Microondas',
         'price':'250,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FMicroondas-250.png?alt=media&token=8695efd6-7341-44fc-9626-e1d064e30dc2',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/pQVNiGbiDq',
     },
     {
         'id':'09',
@@ -61,6 +69,7 @@ const presentes = [
         'product':'Ventilador',
         'price':'180,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2FVentilador-180.png?alt=media&token=311b481c-1e05-47b7-9a6a-e9132cf9a381',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/6JTHsxozQU',
     },
     {
         'id':'10',
@@ -68,6 +77,7 @@ const presentes = [
         'product':'Viagem',
         'price':'300,00',
         'pix':'https://firebasestorage.googleapis.com/v0/b/debora-e-tiago.appspot.com/o/qr-code%2Fviagem-300.png?alt=media&token=8afa7885-25e6-4e51-ba3a-cb89e59d9535',
+        'UrlPix':'https://nubank.com.br/pagar/sxhgd/2HGHSEHTY5',
     },
 ];
 
