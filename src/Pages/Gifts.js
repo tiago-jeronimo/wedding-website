@@ -19,6 +19,7 @@ class Gifts extends React.Component {
                 product={e.product}
                 price={e.price}
                 pix={e.pix}
+                UrlPix={e.UrlPix}
                 /> ))}
                 </div>
             </div>

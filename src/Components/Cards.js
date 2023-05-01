@@ -33,7 +33,9 @@ export default class Cards extends React.Component {
                 id="imagem__back"
                 alt="imagem de um produto"
                 src={this.props.pix}
-              />
+              /> <p className="texto__front card02" >
+                Clique no nome do produto para prosseguir com o pagamento.
+              </p>
               <h1>
                 <a href={this.props.UrlPix} style={{textDecoration: 'none', color: 'inherit'}} >{this.props.product}</a>
               </h1>
