@@ -12,7 +12,7 @@ class Gifts extends React.Component {
         return(
             <div >
                 {/* <Navbar /> */}
-                <h1 id="title" >👰‍♀️ Débora &  Tiago 🤵</h1>
+                <h1 id="title" >👰 Débora &  Tiago 🤵</h1>
             
                 <Image />
 
